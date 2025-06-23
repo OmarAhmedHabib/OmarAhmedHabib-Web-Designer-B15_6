@@ -1,0 +1,271 @@
+/* styles.css */
+
+/* Reset box-sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.navbar {
+    background: black;
+    width: 100%;
+    padding: 1%;
+}
+
+.navbar .logo {
+    float: left;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar .logo span {
+    color: #f78c1e;
+}
+
+.navbar .nav-links {
+    float: right;
+    list-style: none;
+
+}
+
+hr {
+    width: 100px;
+    height: 2px;
+    background-color: #f78c1e;
+    margin: 20px 0px;
+}
+
+.navbar .nav-links li {
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.navbar .nav-links a {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section {
+    background-image: url('../iamges/photorealistic-view-tree-nature-with-branches-trunk.jpg');
+    color: #fff;
+    background-size: cover;
+}
+
+.baner {
+    background-color: #33333396;
+    width: 100%;
+    height: 100%;
+    padding: 9% 0;
+}
+
+
+.section-left {
+    float: left;
+    width: 55%;
+}
+
+.section-left h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.section-left h1 span {
+    color: #f78c1e;
+}
+
+.section-left h2 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.section-left p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #777;
+}
+
+.btn-download {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-download:hover {
+    background: rgba(94, 4, 4, 0.2);
+}
+
+
+.section-right {
+    float: right;
+    width: 35%;
+}
+
+.signup-card {
+    background: #fff;
+    color: #333;
+    border-radius: 3%;
+}
+
+.signup-card h3 {
+    font-size: 130%;
+    background-color: #77777725;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signup-card h3 span {
+    color: #f78c1e;
+}
+
+.signup-card form input {
+    width: 80%;
+    padding: 12px 10px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    border: none;
+    border-bottom: 1px solid #77777780;
+}
+
+.signup-card form button {
+    width: 100%;
+    padding: 12px;
+    background: #f78c1e;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 2%;
+}
+
+/* Section-tab */
+.Features {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5%;
+    overflow: hidden;
+    background: #fff;
+    padding: 10% 0 10% 0%;
+}
+
+.tabs {
+    float: left;
+    display: inline-block;
+    width: 100px;
+}
+
+.tab {
+    background: #ff7f2a;
+    font-size: larger;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 10%;
+}
+
+.tab.active {
+    background: #333;
+}
+
+.content {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    padding: 0 20px;
+    font-size: larger;
+    margin-left: 5%;
+}
+
+.content h2 {
+    margin-top: 0;
+    font-size: 160%;
+    margin-bottom: 40px;
+}
+
+.content p {
+    margin-top: 0;
+    font-size: 100%;
+    color: lightgrey;
+    margin-bottom: 20px;
+}
+
+.button-d {
+    background: #ff7f2a;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+        transition: 0.9s;
+}
+
+.button-d:hover {
+    background: #07597a;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 25px;
+    transition: 0.9s;
+}
+
+.image {
+    float: right;
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.image img {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Clear floats */
+.clearfix-two::after {
+    content: "";
+    display: table;
+    clear: both;
+}
