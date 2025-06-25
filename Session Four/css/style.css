@@ -539,10 +539,10 @@ body {
 }
 
 .testimonial-author {
-    display: flex;
-    align-items: center;
+    float: left;
     padding-left: 30px;
 }
+
 
 .author-image {
     width: 50px;
