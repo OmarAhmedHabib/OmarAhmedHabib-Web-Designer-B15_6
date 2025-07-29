@@ -24,284 +24,379 @@
   <a href="#logo" class="py-3 px-3  position-fixed bottom-0 end-0 z-3 rounded-2  bg-black"><i
       class="bi bi-arrow-up text-light"></i></a>
   <!--  Navbar Scroll -->
-  <section id="NavScroll" class="d-none position-fixed z-3 bg-white shadow-sm">
 
-    <!--  Offcanvas Menu  -->
+<!-- Navbar Scroll -->
+<section id="NavScroll" class="d-none position-fixed z-3 bg-white shadow-sm wow animate__fadeInDown" data-wow-duration="0.5s">
+
+    <!-- Offcanvas Menu -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title">SHOP BY CATEGORIES</h5>
-        <button type="button" class="btn-close" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
-          aria-controls="offcanvasMenu">></button>
-      </div>
-      <div class="offcanvas-body">
-        <a href="#" class="fw-bold text-danger">Homepages</a>
-        <a href="#">Categories</a>
-        <a href="#">Products</a>
-        <a href="#">Pages</a>
-        <a href="#">About us</a>
-        <a href="#">Blog</a>
-        <a href="#"><i class="bi bi-ticket-perforated"></i> Best Discount</a>
-        <a href="#" class="text-muted">Recently viewed</a>
-
-        <hr>
-        <a href="#"><i class="bi bi-heart"></i> Wishlist (0)</a>
-        <a href="#"><i class="bi bi-person"></i> Account</a>
-
-        <hr>
-        <div class="mb-2 fw-bold">Language</div>
-        <div class="d-flex flex-wrap gap-2 mb-3">
-          <span><img src="assets/Images/english.png" width="20" /> English</span>
-          <span><img src="assets/Images/espanol.png" width="20" /> Español</span>
-          <span><img src="assets/Images/francais.png" width="20" /> Français</span>
-          <span><img src="assets/Images/portugues.png" width="20" /> Português</span>
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title wow animate__fadeIn">SHOP BY CATEGORIES</h5>
+            <button type="button" class="btn-close wow animate__fadeIn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"></button>
         </div>
+        <div class="offcanvas-body">
+            <a href="#" class="fw-bold text-danger offcanvas-item wow animate__fadeInLeft" data-wow-delay="0.1s">Homepages</a>
+            <a href="#" class="offcanvas-item wow animate__fadeInLeft" data-wow-delay="0.2s">Categories</a>
+            <a href="#" class="offcanvas-item wow animate__fadeInLeft" data-wow-delay="0.3s">Products</a>
+            <a href="#" class="offcanvas-item wow animate__fadeInLeft" data-wow-delay="0.4s">Pages</a>
+            <a href="#" class="offcanvas-item wow animate__fadeInLeft" data-wow-delay="0.5s">About us</a>
+            <a href="#" class="offcanvas-item wow animate__fadeInLeft" data-wow-delay="0.6s">Blog</a>
+            <a href="#" class="offcanvas-item wow animate__fadeInLeft" data-wow-delay="0.7s"><i class="bi bi-ticket-perforated"></i> Best Discount</a>
+            <a href="#" class="text-muted offcanvas-item wow animate__fadeInLeft" data-wow-delay="0.8s">Recently viewed</a>
 
-        <div class="mb-2 fw-bold">Currency</div>
-        <div class="d-flex gap-3">
-          <span class="text-decoration-underline">USD</span>
-          <span>EUR</span>
-          <span>BRL</span>
+            <hr class="wow animate__fadeIn" data-wow-delay="0.9s">
+            <a href="#" class="offcanvas-item wow animate__fadeInLeft" data-wow-delay="1.0s"><i class="bi bi-heart"></i> Wishlist (0)</a>
+            <a href="#" class="offcanvas-item wow animate__fadeInLeft" data-wow-delay="1.1s"><i class="bi bi-person"></i> Account</a>
+
+            <hr class="wow animate__fadeIn" data-wow-delay="1.2s">
+            <div class="mb-2 fw-bold wow animate__fadeIn" data-wow-delay="1.3s">Language</div>
+            <div class="d-flex flex-wrap gap-2 mb-3 wow animate__fadeIn" data-wow-delay="1.4s">
+                <span><img src="assets/Images/english.png" width="20"> English</span>
+                <span><img src="assets/Images/espanol.png" width="20"> Español</span>
+                <span><img src="assets/Images/francais.png" width="20"> Français</span>
+                <span><img src="assets/Images/portugues.png" width="20"> Português</span>
+            </div>
+
+            <div class="mb-2 fw-bold wow animate__fadeIn" data-wow-delay="1.5s">Currency</div>
+            <div class="d-flex gap-3 wow animate__fadeIn" data-wow-delay="1.6s">
+                <span class="text-decoration-underline">USD</span>
+                <span>EUR</span>
+                <span>BRL</span>
+            </div>
         </div>
-      </div>
     </div>
 
-    <!--  Desktop Top Bar-->
-
+    <!-- Desktop Top Bar -->
     <div class="container-fluid border-bottom py-2 d-none d-lg-block">
-      <div class="row align-items-center px-3">
+        <div class="row align-items-center px-3">
 
-        <!-- Logo -->
-        <div class="col-md-2 py-4 px-4">
-          <img src="assets/Images/logo/logo.png" alt="Logo" class="w-75" id="logo">
-        </div>
-
-        <!-- Contact Info -->
-        <div class="col-md-2 d-flex align-items-center gap-2 small main-hover">
-          <i class="bi bi-telephone fs-2"></i>
-          <div>
-            <div>Contact us 24/7</div>
-            <strong>(+92) 3942 7879</strong>
-          </div>
-        </div>
-
-        <!-- Search Bar -->
-        <div class="col-md-4  border border-1  border-secondary bg-green py-2 rounded">
-          <div class="row ">
-            <div class="col-md-5">
-              <select class="form-select border-0 ">
-                <option>All Categories</option>
-              </select>
+            <!-- Logo -->
+            <div class="col-md-2 py-4 px-4 wow animate__fadeInLeft" data-wow-delay="0.2s">
+                <img src="assets/Images/logo/logo.png" alt="Logo" class="w-75" id="logo">
             </div>
-            <div class="col-md-5">
-              <input type="text" class="form-control border-0 " placeholder="Search for products">
+
+            <!-- Contact Info -->
+            <div class="col-md-2 d-flex align-items-center gap-2 small main-hover wow animate__fadeIn" data-wow-delay="0.3s">
+                <i class="bi bi-telephone fs-2 wow animate__pulse" data-wow-iteration="infinite"></i>
+                <div>
+                    <div>Contact us 24/7</div>
+                    <strong>(+92) 3942 7879</strong>
+                </div>
             </div>
-            <div class="col-md-2">
-              <button class="btn btn-dark"><i class="bi bi-search"></i></button>
+
+            <!-- Search Bar -->
+            <div class="col-md-4 border border-1 border-secondary bg-green py-2 rounded wow animate__zoomIn" data-wow-delay="0.4s">
+                <div class="row">
+                    <div class="col-md-5">
+                        <select class="form-select border-0">
+                            <option>All Categories</option>
+                        </select>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control border-0" placeholder="Search for products">
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-dark wow animate__pulse" data-wow-delay="0.6s">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <!-- Language and Currency -->
+            <div class="col-md-2 d-flex align-items-center gap-2 wow animate__fadeIn" data-wow-delay="0.5s">
+                <!-- Language Dropdown -->
+                <div class="dropdown">
+                    <button class="btn btn-sm dropdown-toggle d-flex align-items-center border bg-white border-0" type="button"
+                        data-bs-toggle="dropdown">
+                        <span class="col-md-4"><img src="https://flagcdn.com/w40/us.png" class="img-fluid"></span>
+                        <span class="col-md-6">English</span>
+                    </button>
+                    <ul class="dropdown-menu menu-Language wow animate__fadeIn">
+                        <li><a class="dropdown-item d-flex align-items-center" href="#">
+                            <img src="https://flagcdn.com/w40/es.png" class="flag-icon"> Español</a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="#">
+                            <img src="https://flagcdn.com/w40/fr.png" class="flag-icon"> Français</a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="#">
+                            <img src="https://flagcdn.com/w40/pt.png" class="flag-icon"> Português</a></li>
+                    </ul>
+                </div>
+
+                <!-- Currency Dropdown -->
+                <div class="dropdown">
+                    <button class="btn btn-sm dropdown-toggle d-flex align-items-center border bg-white border-0" type="button"
+                        data-bs-toggle="dropdown">USD</button>
+                    <ul class="dropdown-menu menu-Language wow animate__fadeIn">
+                        <li><a class="dropdown-item d-flex align-items-center" href="#">EUR</a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="#">BRL</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Account, Favorites, Cart -->
+            <div class="col-md-2 d-flex align-items-center justify-content-end gap-3 wow animate__fadeInRight" data-wow-delay="0.6s">
+                <div class="fw-bold main-hover d-flex align-items-center">
+                    <i class="bi bi-person fs-4"></i> Account
+                </div>
+
+                <div class="position-relative">
+                    <i class="bi bi-heart main-hover fs-4"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="favCount">0</span>
+                </div>
+
+                <div class="position-relative">
+                    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" class="text-dark">
+                        <i class="bi bi-cart main-hover fs-4"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-badge" id="cartCount">3</span>
+                    </a>
+                </div>
+            </div>
         </div>
-
-        <!-- Language and Currency -->
-        <div class="col-md-2 d-flex align-items-center gap-2">
-
-          <!-- Language Dropdown -->
-          <div class="dropdown">
-            <button class="btn btn-sm dropdown-toggle d-flex align-items-center border bg-white border-0 " type="button"
-              data-bs-toggle="dropdown">
-              <span class="col-md-4"><img src="https://flagcdn.com/w40/us.png" class="img-fluid"></span>
-              <span class="col-md-6">English</span>
-
-            </button>
-            <ul class="dropdown-menu menu-Language ">
-              <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <img src="https://flagcdn.com/w40/es.png" class="flag-icon"> Español
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <img src="https://flagcdn.com/w40/fr.png" class="flag-icon"> Français
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <img src="https://flagcdn.com/w40/pt.png" class="flag-icon"> Português
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Currency Dropdown -->
-          <div class="dropdown">
-            <button class="btn btn-sm dropdown-toggle d-flex align-items-center border bg-white border-0" type="button"
-              data-bs-toggle="dropdown">
-              USD
-            </button>
-            <ul class="dropdown-menu menu-Language ">
-              <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  EUR
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  BRL
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Account, Favorites, Cart -->
-        <div class="col-md-2 d-flex align-items-center justify-content-end gap-3">
-
-          <div class="fw-bold main-hover d-flex align-items-center"><i class="bi bi-person fs-4"></i> Account</div>
-
-          <div class="position-relative">
-            <i class="bi bi-heart main-hover fs-4"></i>
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-              id="favCount">0</span>
-          </div>
-
-          <div class="position-relative">
-            <i class="bi bi-cart main-hover fs-4"></i>
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-              id="cartCount">0</span>
-          </div>
-          <div class="position-relative">
-            <a href="javascript:void(0)" class="text-dark" id="btn-nav">
-              <i class="bi bi-list-task fs-4 d-block" id="icon-open"></i>
-              <i class="bi bi-x-lg fs-4 d-none" id="icon-close"></i>
-            </a>
-
-          </div>
-        </div>
-
-      </div>
     </div>
 
-    <!--  Desktop Navbar  -->
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light border-bottom px-3 d-none " id="MainNavScroll">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- Desktop Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom px-3 d-none d-lg-block wow animate__fadeIn" data-wow-delay="0.7s">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item wow animate__fadeIn" data-wow-delay="0.8s">
+                        <a class="nav-link fw-bold main-hover border-end" data-bs-toggle="offcanvas" href="#offcanvasCategories">
+                            <i class="bi bi-list"></i> SHOP BY CATEGORIES
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item dropdown wow animate__fadeIn" data-wow-delay="0.9s">
+                        <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Homepages</a>
+                        <ul class="dropdown-menu menu-Language-2 wow animate__fadeIn">
+                            <li><a class="dropdown-item" href="#">Homepage 1</a></li>
+                            <li><a class="dropdown-item" href="#">Homepage 2</a></li>
+                        </ul>
+                    </li>
 
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
-            <!-- الزر اللي بيفتح Offcanvas -->
-            <li class="nav-item">
-              <a class="nav-link fw-bold main-hover border-end" data-bs-toggle="offcanvas" href="#offcanvasCategories"
-                role="button" aria-controls="offcanvasCategories">
-                <i class="bi bi-list"></i> SHOP BY CATEGORIES
-              </a>
-            </li>
+                    <li class="nav-item dropdown wow animate__fadeIn" data-wow-delay="1.0s">
+                        <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Categories</a>
+                        <ul class="dropdown-menu menu-Language-2 wow animate__fadeIn">
+                            <li><a class="dropdown-item" href="#">Category 1</a></li>
+                            <li><a class="dropdown-item" href="#">Category 2</a></li>
+                        </ul>
+                    </li>
 
-            <!-- باقي عناصر الناف -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Homepages</a>
-              <ul class="dropdown-menu menu-Language-2">
-                <li><a class="dropdown-item" href="#">Homepage 1</a></li>
-                <li><a class="dropdown-item" href="#">Homepage 2</a></li>
-              </ul>
-            </li>
+                    <li class="nav-item dropdown wow animate__fadeIn" data-wow-delay="1.1s">
+                        <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Products</a>
+                        <ul class="dropdown-menu menu-Language-2 wow animate__fadeIn">
+                            <li><a class="dropdown-item" href="#">Product 1</a></li>
+                            <li><a class="dropdown-item" href="#">Product 2</a></li>
+                        </ul>
+                    </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Categories</a>
-              <ul class="dropdown-menu  menu-Language-2">
-                <li><a class="dropdown-item" href="#">Category 1</a></li>
-                <li><a class="dropdown-item" href="#">Category 2</a></li>
-              </ul>
-            </li>
+                    <li class="nav-item dropdown wow animate__fadeIn" data-wow-delay="1.2s">
+                        <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Pages</a>
+                        <ul class="dropdown-menu menu-Language-2 wow animate__fadeIn">
+                            <li><a class="dropdown-item" href="#">Page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Page 2</a></li>
+                        </ul>
+                    </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Products</a>
-              <ul class="dropdown-menu  menu-Language-2">
-                <li><a class="dropdown-item" href="#">Product 1</a></li>
-                <li><a class="dropdown-item" href="#">Product 2</a></li>
-              </ul>
-            </li>
+                    <li class="nav-item wow animate__fadeIn" data-wow-delay="1.3s">
+                        <a class="nav-link main-hover" href="#">About us</a>
+                    </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Pages</a>
-              <ul class="dropdown-menu  menu-Language-2">
-                <li><a class="dropdown-item" href="#">Page 1</a></li>
-                <li><a class="dropdown-item" href="#">Page 2</a></li>
-              </ul>
-            </li>
+                    <li class="nav-item wow animate__fadeIn" data-wow-delay="1.4s">
+                        <a class="nav-link main-hover" href="#">Blog</a>
+                    </li>
 
-            <li class="nav-item"><a class="nav-link main-hover" href="#">About us</a></li>
-            <li class="nav-item"><a class="nav-link main-hover" href="#">Blog</a></li>
-            <li class="nav-item"><a class="nav-link main-hover" href="#"><i class="bi bi-tag"></i> Best Discount</a>
-            </li>
-            <div class=" ms-170">
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle main-hover " href="#" data-bs-toggle="dropdown">Recently viewed</a>
-                <ul class="dropdown-menu  menu-Language-2 ">
-                  <li><a class="dropdown-item" href="#">Product 1</a></li>
-                  <li><a class="dropdown-item" href="#">Product 2</a></li>
+                    <li class="nav-item wow animate__fadeIn" data-wow-delay="1.5s">
+                        <a class="nav-link main-hover" href="#"><i class="bi bi-tag"></i> Best Discount</a>
+                    </li>
+
+                    <div class="ms-170 wow animate__fadeIn" data-wow-delay="1.6s">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Recently viewed</a>
+                            <ul class="dropdown-menu menu-Language-2 wow animate__fadeIn">
+                                <li><a class="dropdown-item" href="#">Product 1</a></li>
+                                <li><a class="dropdown-item" href="#">Product 2</a></li>
+                            </ul>
+                        </li>
+                    </div>
                 </ul>
-              </li>
             </div>
-          </ul>
         </div>
-      </div>
     </nav>
 
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasCategories"
-      aria-labelledby="offcanvasCategoriesLabel">
-      <!-- Header -->
-      <div class="offcanvas-header bg-black text-white">
-        <h5 class="offcanvas-title" id="offcanvasCategoriesLabel">
-          <i class="bi bi-list me-2"></i> SHOP BY CATEGORIES
-        </h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-
-      <!-- Body -->
-      <div class="offcanvas-body p-0">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
-            <span><i class="bi bi-person me-3 fs-5"></i> Fashion</span>
-            <i class="bi bi-chevron-right text-muted"></i>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
-            <span><i class="bi bi-phone me-3 fs-5"></i> Phone & Tablet</span>
-            <i class="bi bi-chevron-right text-muted"></i>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
-            <span><i class="bi bi-laptop me-3 fs-5"></i> Laptop & Computer</span>
-            <i class="bi bi-chevron-right text-muted"></i>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
-            <span><i class="bi bi-tv me-3 fs-5"></i> TV, Audio – Video</span>
-            <i class="bi bi-chevron-right text-muted"></i>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
-            <span><i class="bi bi-camera me-3 fs-5"></i> Camera & Photo</span>
-            <i class="bi bi-chevron-right text-muted"></i>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
-            <span><i class="bi bi-house me-3 fs-5"></i> Home & Decor</span>
-            <i class="bi bi-chevron-right text-muted"></i>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
-            <span><i class="bi bi-heart-pulse me-3 fs-5"></i> Beauty & Health</span>
-            <i class="bi bi-chevron-right text-muted"></i>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
-            <span><i class="bi bi-controller me-3 fs-5 "></i> Game Accessories</span>
-            <i class="bi bi-chevron-right text-muted"></i>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
-            <span><i class="bi bi-gear me-3 fs-5"></i> Autopart</span>
-            <i class="bi bi-chevron-right text-muted"></i>
-          </li>
-        </ul>
-      </div>
+    <!-- Categories Offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasCategories">
+        <div class="offcanvas-header bg-black text-white">
+            <h5 class="offcanvas-title wow animate__fadeIn">
+                <i class="bi bi-list me-2"></i> SHOP BY CATEGORIES
+            </h5>
+            <button type="button" class="btn-close btn-close-white wow animate__fadeIn" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body p-0">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between align-items-center fs-6 wow animate__fadeInLeft" data-wow-delay="0.1s">
+                    <span><i class="bi bi-person me-3 fs-5"></i> Fashion</span>
+                    <i class="bi bi-chevron-right text-muted"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center fs-6 wow animate__fadeInLeft" data-wow-delay="0.2s">
+                    <span><i class="bi bi-phone me-3 fs-5"></i> Phone & Tablet</span>
+                    <i class="bi bi-chevron-right text-muted"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center fs-6 wow animate__fadeInLeft" data-wow-delay="0.3s">
+                    <span><i class="bi bi-laptop me-3 fs-5"></i> Laptop & Computer</span>
+                    <i class="bi bi-chevron-right text-muted"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center fs-6 wow animate__fadeInLeft" data-wow-delay="0.4s">
+                    <span><i class="bi bi-tv me-3 fs-5"></i> TV, Audio – Video</span>
+                    <i class="bi bi-chevron-right text-muted"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center fs-6 wow animate__fadeInLeft" data-wow-delay="0.5s">
+                    <span><i class="bi bi-camera me-3 fs-5"></i> Camera & Photo</span>
+                    <i class="bi bi-chevron-right text-muted"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center fs-6 wow animate__fadeInLeft" data-wow-delay="0.6s">
+                    <span><i class="bi bi-house me-3 fs-5"></i> Home & Decor</span>
+                    <i class="bi bi-chevron-right text-muted"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center fs-6 wow animate__fadeInLeft" data-wow-delay="0.7s">
+                    <span><i class="bi bi-heart-pulse me-3 fs-5"></i> Beauty & Health</span>
+                    <i class="bi bi-chevron-right text-muted"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center fs-6 wow animate__fadeInLeft" data-wow-delay="0.8s">
+                    <span><i class="bi bi-controller me-3 fs-5"></i> Game Accessories</span>
+                    <i class="bi bi-chevron-right text-muted"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center fs-6 wow animate__fadeInLeft" data-wow-delay="0.9s">
+                    <span><i class="bi bi-gear me-3 fs-5"></i> Autopart</span>
+                    <i class="bi bi-chevron-right text-muted"></i>
+                </li>
+            </ul>
+        </div>
     </div>
-  </section>
+</section>
+
+<!-- Mobile Navbar -->
+<nav class="navbar navbar-light bg-white border-bottom px-3 py-2 d-block d-lg-none wow animate__fadeInDown" data-wow-duration="0.5s">
+    <div class="d-flex w-100 justify-content-between align-items-center">
+        <!-- Toggle Button -->
+        <button class="btn p-0 border-0 wow animate__fadeInLeft" data-wow-delay="0.2s" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+            <i class="bi bi-list fs-2"></i>
+        </button>
+
+        <!-- Logo Center -->
+        <a class="navbar-brand mx-auto logo wow animate__fadeIn" data-wow-delay="0.3s" href="#">
+            M<span>e</span>rto
+        </a>
+
+        <!-- Icons Right -->
+        <div class="d-flex align-items-center wow animate__fadeInRight" data-wow-delay="0.4s">
+            <a href="#" class="text-dark me-3"><i class="bi bi-search fs-5"></i></a>
+            <a href="#" class="text-dark position-relative me-3" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas">
+                <i class="bi bi-cart fs-5"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-badge">3</span>
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- Cart Offcanvas -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title wow animate__fadeIn" id="cartOffcanvasLabel">
+            <i class="bi bi-cart-fill me-2"></i> Your Cart (<span id="cartCountDisplay">3</span>)
+        </h5>
+        <button type="button" class="btn-close wow animate__fadeIn" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="list-group">
+            <!-- Cart Item 1 -->
+            <div class="list-group-item border-0 wow animate__fadeInRight" data-wow-delay="0.1s">
+                <div class="d-flex gap-3">
+                    <img src="assets/Images/products/product1.jpg" width="60" height="60" class="rounded">
+                    <div class="flex-grow-1">
+                        <h6 class="mb-1">Nike Air Max Shoes</h6>
+                        <small class="text-muted">Size: 42 | Color: Black</small>
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <span class="fw-bold">$148.00</span>
+                            <div class="btn-group btn-group-sm">
+                                <button class="btn btn-outline-secondary">-</button>
+                                <button class="btn btn-outline-secondary">1</button>
+                                <button class="btn btn-outline-secondary">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-sm btn-outline-danger">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Cart Item 2 -->
+            <div class="list-group-item border-0 wow animate__fadeInRight" data-wow-delay="0.2s">
+                <div class="d-flex gap-3">
+                    <img src="assets/Images/products/product2.jpg" width="60" height="60" class="rounded">
+                    <div class="flex-grow-1">
+                        <h6 class="mb-1">Apple MacBook Air</h6>
+                        <small class="text-muted">13.3 inch | M1 Chip</small>
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <span class="fw-bold">$999.00</span>
+                            <div class="btn-group btn-group-sm">
+                                <button class="btn btn-outline-secondary">-</button>
+                                <button class="btn btn-outline-secondary">1</button>
+                                <button class="btn btn-outline-secondary">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-sm btn-outline-danger">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Cart Item 3 -->
+            <div class="list-group-item border-0 wow animate__fadeInRight" data-wow-delay="0.3s">
+                <div class="d-flex gap-3">
+                    <img src="assets/Images/products/product3.jpg" width="60" height="60" class="rounded">
+                    <div class="flex-grow-1">
+                        <h6 class="mb-1">Wireless Headphones</h6>
+                        <small class="text-muted">Color: White | Noise Cancelling</small>
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <span class="fw-bold">$199.00</span>
+                            <div class="btn-group btn-group-sm">
+                                <button class="btn btn-outline-secondary">-</button>
+                                <button class="btn btn-outline-secondary">1</button>
+                                <button class="btn btn-outline-secondary">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-sm btn-outline-danger">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="border-top pt-3 mt-3 wow animate__fadeInUp" data-wow-delay="0.4s">
+            <div class="d-flex justify-content-between mb-3">
+                <span>Subtotal:</span>
+                <span class="fw-bold">$1,346.00</span>
+            </div>
+            <div class="d-flex justify-content-between mb-3">
+                <span>Shipping:</span>
+                <span class="fw-bold">Free</span>
+            </div>
+            <div class="d-flex justify-content-between mb-4">
+                <span class="fw-bold">Total:</span>
+                <span class="fw-bold fs-5">$1,346.00</span>
+            </div>
+            <button class="btn btn-dark w-100 py-2 wow animate__pulse" data-wow-iteration="2">
+                Proceed to Checkout
+            </button>
+            <a href="#" class="btn btn-outline-dark w-100 mt-2 wow animate__fadeInUp" data-wow-delay="0.5s">
+                Continue Shopping
+            </a>
+        </div>
+    </div>
+</div>
   <!-- End Nav -->
 
   <!--  Navbar Mobile -->

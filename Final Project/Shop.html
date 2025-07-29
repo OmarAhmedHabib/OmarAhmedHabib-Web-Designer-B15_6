@@ -821,33 +821,62 @@
               <option>Sort by price</option>
               <option>Sort by popularity</option>
             </select>
-            <span class="ms-2 text-primary"><i class="bi bi-list"></i></span>
-            <span><i class="bi bi-grid text-muted"></i></span>
+              <span class="ms-2 view-icon" id="list-view"><i class="bi bi-list"></i></span>
+              <span class="view-icon active" id="grid-view"><i class="bi bi-grid"></i></span>
           </div>
         </div>
-
-        <!-- Product Card 1 -->
-        <div class=" border border-2 rounded m-0 p-5">
-          <div>
-            <img src="assets/Images/shop/shop-3.jpg" alt="Nike Air Max" class="w-25 " >
-          </div>
-          <div class="product-info">
-            <h6 class="fw-bold">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
-            <p class="product-price border-bottom border-1">$148</p>
-            <ul class="feature-list text-muted">
-              <li><i class="fa-solid fa-check text-success"></i> Machine Wash</li>
-              <li><i class="fa-solid fa-check text-success"></i>  Lace-Up</li>
-              <li><i class="fa-solid fa-check text-success"></i> 14.11 Ounces</li>
-            </ul>
-          </div>
-          <div class="product-actions">
-            <button class="btn btn-light">Quick View</button>
-            <button class="btn btn-light">+ Add to Cart</button>
-            <div class="wishlist-compare mt-2">
-              <span><i class="bi bi-heart"></i> Add to wishlist</span>
-              <span><i class="bi bi-arrow-left-right"></i> Add to compare</span>
-            </div>
-          </div>
+    <style>
+    /* نمط الشبكة (العرض الافتراضي) */
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    
+    /* نمط القائمة */
+    .products-list {
+      display: block;
+    }
+    
+    .products-list .product-card {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    
+    .products-list .product-card > div {
+      flex: 1;
+      padding: 15px;
+    }
+    
+    /* تنسيق الأيقونات النشطة/غير النشطة */
+    .view-icon.active {
+      color: #0d6efd !important;
+    }
+  </style>
+          <!-- Product Card 1 -->
+          <div class="products-container border border-2 rounded m-0 p-5">
+              <div class="product-card border border-2 rounded">
+                                <div>
+                  <img src="assets/Images/shop/shop-3.jpg" alt="Nike Air Max" class="w-25 " >
+                </div>
+                <div class="product-info">
+                  <h6 class="fw-bold">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                  <p class="product-price border-bottom border-1">$148</p>
+                  <ul class="feature-list text-muted">
+                    <li><i class="fa-solid fa-check text-success"></i> Machine Wash</li>
+                    <li><i class="fa-solid fa-check text-success"></i>  Lace-Up</li>
+                    <li><i class="fa-solid fa-check text-success"></i> 14.11 Ounces</li>
+                  </ul>
+                </div>
+                <div class="product-actions">
+                <button class="btn btn-light">Quick View</button>
+                <button class="btn btn-light">+ Add to Cart</button>
+                <div class="wishlist-compare mt-2">
+                  <span><i class="bi bi-heart"></i> Add to wishlist</span>
+                  <span><i class="bi bi-arrow-left-right"></i> Add to compare</span>
+                </div>
+              </div>
+              </div>
         </div>
 
         <!-- Product Card 2 -->

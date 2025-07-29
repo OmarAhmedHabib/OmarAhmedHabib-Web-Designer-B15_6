@@ -91,3 +91,32 @@ function changeImage(element) {
   document.querySelectorAll('.thumbnail-img').forEach(img => img.classList.remove('active-thumbnail'));
   element.classList.add('active-thumbnail');
 }
+
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const productsContainer = document.querySelector('.col-md-10');
+    const listView = document.getElementById('list-view');
+    const gridView = document.getElementById('grid-view');
+    
+    // تغيير إلى عرض القائمة
+    listView.addEventListener('click', function(e) {
+      e.preventDefault();
+      productsContainer.classList.remove('products-grid');
+      productsContainer.classList.add('products-list');
+      listView.classList.add('active');
+      gridView.classList.remove('active');
+    });
+    
+    // تغيير إلى عرض الشبكة
+    gridView.addEventListener('click', function(e) {
+      e.preventDefault();
+      productsContainer.classList.remove('products-list');
+      productsContainer.classList.add('products-grid');
+      gridView.classList.add('active');
+      listView.classList.remove('active');
+    });
+    
+    // التهيئة الأولية
+    productsContainer.classList.add('products-grid');
+  });
