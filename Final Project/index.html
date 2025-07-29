@@ -2093,7 +2093,7 @@
 
  
 <div class="container-flud my-5">
-  <div class="row align-items-center bg-info "style="height: 500px;">
+  <div class="row align-items-center bg-light "style="height: 500px;">
     <!-- Left: Image -->
     <div class="col-md-7 position-relative text-center">
       <div class="discount-badge">-30%</div>
@@ -2113,10 +2113,10 @@
 
         <!-- Thumbnails -->
         <div class="d-flex gap-2 my-3">
-          <img src="https://i.imgur.com/ZWlWVLt.png" class="thumbnail-img" onclick="changeImage(this)">
-          <img src="https://i.imgur.com/vx71TO7.png" class="thumbnail-img" onclick="changeImage(this)">
-          <img src="https://i.imgur.com/ekRZxJd.png" class="thumbnail-img" onclick="changeImage(this)">
-          <img src="https://i.imgur.com/gXsSWSa.png" class="thumbnail-img" onclick="changeImage(this)">
+          <img src="assets/Images/Hoodie/brova1.jpg" class="thumbnail-img" onclick="changeImage(this)">
+          <img src="assets/Images/Hoodie/brova3.jpg" class="thumbnail-img" onclick="changeImage(this)">
+          <img src="assets/Images/Hoodie/brova2.jpg" class="thumbnail-img" onclick="changeImage(this)">
+          <img src="assets/Images/Hoodie/brova4.jpg" class="thumbnail-img" onclick="changeImage(this)">
         </div>
 
         <!-- Button -->
@@ -2272,8 +2272,65 @@
     </div>
   </div>
 </div>
-
-
+<div class="container-fluid py-5 wow animate__fadeIn"  data-wow-duration="1s">
+  <div class="row align-content-center mb-5 wow animate__fadeInUp">
+    <p class="col-md-6 h3">Stores around the world</p>
+    <p class="col-md-6 text-end"><a href="" class="text-dark">seemore</a></p>
+  </div>
+  
+  <div class="owl-carousel owl-theme stores-carousel wow animate__fadeInUp" id="owl-carousel-80">
+    <!-- Los Angeles Store -->
+    <div class="item">
+      <div class="card h-100 border-0">
+        <div class="card-body text-start p-4">
+          <div class=""><img src="assets/Images/contact/about-2.jpg" alt="" class="img-fluid im-cadr"></div>
+          <h4 class="card-title text-dark mb-3 mt-3">Los Angeles</h4>
+          <div class="card-text">
+            <p class="mb-2">34 Main Street, Los Angeles 9021</p>
+            <p class="mb-2">United States</p>
+            <p class="mb-0">
+              <i class="fas fa-phone-alt me-2"></i>+02 1234 567 88
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- New York Store -->
+    <div class="item">
+      <div class="card h-100 border-0">
+        <div class="card-body text-start p-4">
+          <div class="img-fluid"><img src="assets/Images/contact/about-3.jpg" alt="" class="img-fluid im-cadr"></div>
+          <h4 class="card-title text-dark mb-3 mt-3">New York</h4>
+          <div class="card-text">
+            <p class="mb-2">515 Broadway 10015 New York</p>
+            <p class="mb-2">United States</p>
+            <p class="mb-0">
+              <i class="fas fa-phone-alt me-2"></i>+49 1234 567 88
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- California Store -->
+    <div class="item">
+      <div class="card h-100 border-0">
+        <div class="card-body text-start p-4">
+          <div class="img-fluid"><img src="assets/Images/contact/about-4.jpg" alt="" class="img-fluid im-cadr"></div>
+          <h4 class="card-title text-dark mb-3 mt-3">California</h4>
+          <div class="card-text">
+            <p class="mb-2">1000 California St 68114 Omaha</p>
+            <p class="mb-2">United States</p>
+            <p class="mb-0">
+              <i class="fas fa-phone-alt me-2"></i>+44 1234 567 88
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Footer -->
  <section>
   <footer class="bg-dark">
@@ -2417,7 +2474,103 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 
-
+     <script>
+         // Initialize WOW.js
+    new WOW().init();
+  </script>
+<script>
+$(document).ready(function(){
+  $("#owl-carousel-80").owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    dots:false,
+        autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 3
+      }
+    }
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#owl-carousel-2").owlCarousel({
+   loop:true,
+    margin:10,
+    autoplay:true,
+    dots:false,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#owl-carousel-3").owlCarousel({
+   loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 8
+      }
+    }
+  });
+});
+</script>
   <script src="assets/js/main.js"></script>
 </body>
 

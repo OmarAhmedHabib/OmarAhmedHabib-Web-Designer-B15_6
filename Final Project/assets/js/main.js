@@ -83,3 +83,11 @@ document.querySelectorAll('.advanced-zoom-container').forEach(container => {
     img.style.transform = 'scale(1) translate(0,0)';
   });
 });
+
+
+function changeImage(element) {
+  const newSrc = element.getAttribute('src');
+  document.getElementById('mainImage').setAttribute('src', newSrc);
+  document.querySelectorAll('.thumbnail-img').forEach(img => img.classList.remove('active-thumbnail'));
+  element.classList.add('active-thumbnail');
+}
