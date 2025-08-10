@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Reset box-sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.card{
+    width: 25%;
+    margin-top: 5%;
+    box-shadow: 10px 0px 5px rgba(0, 153, 204, 0.356);
+
+}
+.card img{
+    width: 100%;
+}
+.card .tettle{
+    padding: 3%;
+}
+.tettle h4 , p{
+    padding: 4%;
+        text-transform: capitalize;
+} 
+.like{
+    
+}

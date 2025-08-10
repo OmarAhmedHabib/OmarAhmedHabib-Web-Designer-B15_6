@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  line-height: 1.6;
+  perspective: 900px;
+}
+.continer{
+  width: 95%;
+  margin: auto;
+}
+.banner-card{
+  width: 25rem;
+  height: 25rem;
+  background-color: rgba(197, 117, 106, 0.781);
+  margin: 5rem auto;
+  border-radius: 5%;
+  padding: 2rem;
+}
+.banner-card h1 {
+ font-size:20px;
+}
+.parent{
+  position: relative;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8%;
+  width: 15rem;
+  height: 10rem;
+  transform: rotateX(180deg);
+}
+.card-1{
+  position: absolute;
+  right: 10px;
+  box-shadow: 3px 1px  10px rgba(0, 0, 0, 0.596);
+  border-radius: 8%;
+  width: 17rem;
+  height: 10rem;
+  transform:perspective(400);
+  transform:rotateX(2deg);
+}
+.card-2{
+  position: absolute;
+  right: 20px;
+  background-color: yellow;
+  border-radius: 8%;
+  width: 17rem;
+  height: 10rem;
+  transform:rotate(4deg);
+}
+.card-2:hover{
+  transform: skew(150deg);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="off" action="success.html" method="post">
+        <label>First Name</label>
+        <input type="text" autofocus name="firstName" autocomplete="off" required minlength="5" maxlength="10"> <br>
+        <label for="lastName">Last Name </label>
+        <input type="text" id="lastName" name="lastName">
+        <br>
+        <input type="email"  value="email" name="userEmail">
+        <br>
+        <input type="text" name="shippingArea" disabled value="Alex">
+        <input type="text" name="shippingPoint" readonly value="Alex"> <br>
+        <input type="password" title="please enter at least 1 uppercase , 1 lowercase , 1 number...."  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  placeholder="enter your password">
+
+        <input type="file" multiple> <br>
+        <input type="radio" name="gender" value="Male"> <label>Male</label>
+        <input type="radio" name="gender" value="Female"> <span>Female</span>
+        <br>
+
+        <label>Courses</label>
+        <input type="checkbox" name="courses" value="frontend"><span>Frontend</span>
+        <input type="checkbox" name="courses" value="backend"><span>Backend</span>
+        <input type="checkbox" name="courses" value="network"><span>Network</span>
+        <br>
+        <!-- <label>Choose Your Track</label> -->
+        <select name="track" multiple>
+            <option disabled selected>Choose your track</option>
+            <option value="fr">Frontend</option>
+            <option value="br">Backend dfghjghgfgffgg</option>
+            <option value="nt">Network</option>
+        </select>
+        <br>
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="month">
+        <br>
+
+        <input type="range" name="range" max="300" min="150" value="150" step="50">
+        <br>
+
+        <textarea placeholder="enter your address" rows="5" cols="100"></textarea>
+
+        <input type="submit" value="register">
+
+        <button type="submit">Login</button>
+        <button type="reset">clear</button>
+    </form>
+</body>
+</html>

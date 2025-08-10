@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c111d;
+    color: #ffffff;
+}
+
+a {
+    color: gray;
+
+}
+.container{
+    width: 80%;
+}
+nav{
+    height: 100vh;
+    background-image:url(../counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.layer{
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(10,0,0,0.5) ;
+}

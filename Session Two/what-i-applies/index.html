@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="continer">
+
+        <form autocomplete="off" method="post" action="sucess.html">
+            <!-- autocomplete  -->
+            <br>
+            <br>
+            <label for="farstname" autofocus="">farstName :</label>
+            <input id="farstname" pattern="[A-Za-z]{3}" type="text" name="farstName">
+            <br>
+            <br>
+            <label for="lastName">lastName:</label>
+            <input id="lastName"  type="text" required name="lastname">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+            <br>
+            <br>
+            <label for="Password">Password :</label>
+            <input id="Password" maxlength="10" type="Password" name="Password" placeholder="Enter Your Password"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            <br>
+            <br>
+            <input type="text" placeholder="alx" disabled>
+            <br>
+            <br>
+            <input type="text" readonly value="ShappingAree">
+            <br>
+            <br>
+            <label for="img"></label>
+            <input id="img" type="file" multiple accept="">
+            <br>
+            <br>
+            <select name="" id="">
+                <option value="" disabled selected>Chose Your Trak</option>
+                <option value="">Frontend</option>
+                <option value="">Backend</option>
+                <option value="">Natwork</option>
+            </select>
+            <br>
+            <br>
+            <input type="range" max="300" min="150" value="150" step="50" name="range">
+
+            <br>
+            <br>
+            <textarea name="" id=""></textarea>
+            <br>
+            <br>
+            <label for="browser">Choose your browser from the list:</label>
+            <input list="browsers" name="browser" id="browser">
+
+            <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <br>
+            <br>
+            <label for="">Chosse The Cours</label><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Frontend</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Backend</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Network</label><br>
+            <br>
+            <br>
+            <input type="color">
+            <br>
+            <br>
+            <input type="reset" accept="" pattern=".{8,}">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>

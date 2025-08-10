@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0c111d;
+    color: #ffffff;
+    padding: 40px;
+}
+
+a {
+    color: gray;
+
+}
+
+.title {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #2b2f38;
+    padding-bottom: 10px;
+        width: 100%;
+}
+
+.title h2 {
+    font-size: 28px;
+
+}
+
+.container {
+    width: 80%;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+}
+
+.form-left {
+    width: 45%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    color: #000;
+}
+
+.form-left form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-left form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.name-group {
+    display: flex;
+    gap: 15px;
+}
+
+.name-group .form-control {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-left input[type="text"],
+.form-left input[type="email"],
+.form-left textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-left textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.form-left button {
+    background: linear-gradient(to right, #0c111d, #1c2639);
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.form-left button:hover {
+    opacity: 0.9;
+}
+
+.info-right {
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 50px;
+    padding: 20px 0;
+    justify-content:start;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info i {
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.info h3 {
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.info p {
+    font-size: 14px;
+    color: #cccccc;
+}

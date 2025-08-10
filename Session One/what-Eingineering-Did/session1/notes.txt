@@ -1,0 +1,2 @@
+==> block Elements : h1:h6 ,p  , hr , table , semantic tags
+--> inline Elements ==> span , a , img , text formatting , iframe

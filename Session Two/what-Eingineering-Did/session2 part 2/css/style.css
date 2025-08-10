@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+h3 {
+    color: goldenrod;
+}
+
+.text-light {
+    color: lightgray;
+}
+
+#h1-color {
+    color: blue;
+}
+
+.div-style {
+    width: 50%;
+    /* height: 100%; */
+    background-color: #c54949;
+    color: white;
+    /* padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%; */
+    padding: 2%;
+    /* padding: 2% 5%;
+    padding: 2% 5% 3%;
+    padding: 2% 3% 5% 1%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2% auto;
+    border-left: 15px solid blue;
+    /* border-left-width: 15px;
+    border-left-style: solid;
+    border-left-color: blue; */
+    border: 3px solid black;
+}
+
+.div-style h1{
+    text-align: center;
+}
+
+.card {
+    background-color: lightgray;
+    padding: 5%;
+    width: 40%;
+    /* border-style: ; */
+    border: 3px dashed;
+    border: 3px dashed;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/* display , float */
+/* display ==> block , inline , inline-block , flex */
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    margin: 0;
+    padding: 0;
+}
+.card a {
+        background-color: black;
+    color: white;
+    font-size: 23px;
+    /* padding: 7%; */
+    /* width: 30%; */
+    /* height: 40px; */
+    /* margin: 24%; */
+    display: inline-block;
+    padding: 2%;
+    /* underline (default) , line-through , overline , none */
+    text-decoration: none;
+        border-radius: 11px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+
+}
