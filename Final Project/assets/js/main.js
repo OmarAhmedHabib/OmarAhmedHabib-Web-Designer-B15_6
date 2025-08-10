@@ -50,13 +50,12 @@ document.addEventListener("DOMContentLoaded", function() {
     tab.addEventListener("click", function(e) {
       e.preventDefault();
 
-      // إزالة active من جميع الروابط
       tabs.forEach(t => t.classList.remove("active"));
 
-      // إضافة active للرابط الحالي
+
       this.classList.add("active");
 
-      // إخفاء جميع المحتويات
+
       panes.forEach(pane => pane.classList.remove("show", "active"));
 
 
@@ -99,7 +98,7 @@ function changeImage(element) {
     const listView = document.getElementById('list-view');
     const gridView = document.getElementById('grid-view');
     
-    // تغيير إلى عرض القائمة
+ 
     listView.addEventListener('click', function(e) {
       e.preventDefault();
       productsContainer.classList.remove('products-grid');
@@ -107,8 +106,7 @@ function changeImage(element) {
       listView.classList.add('active');
       gridView.classList.remove('active');
     });
-    
-    // تغيير إلى عرض الشبكة
+ 
     gridView.addEventListener('click', function(e) {
       e.preventDefault();
       productsContainer.classList.remove('products-list');
@@ -116,7 +114,6 @@ function changeImage(element) {
       gridView.classList.add('active');
       listView.classList.remove('active');
     });
-    
-    // التهيئة الأولية
+ 
     productsContainer.classList.add('products-grid');
   });
